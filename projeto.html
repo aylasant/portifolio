@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev. Fernanda Ayla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Fernanda<span>Ayla</span></div>
+  <nav>
+    <a href="portifolioux.html">Início</a>
+    <a href="sobre.html">Sobre Mim</a>
+    <a href="projeto.html">Projetos</a>
+    <a href="contato.html" class="btn-nav">Contato</a>
+  </nav>
+</header>
+
+<section class="projects-page">
+
+  <div class="projects-header">
+    <h1>Meus Projetos</h1>
+    <p>Alguns dos projetos desenvolvidos por mim.</p>
+  </div>
+
+  <!-- FILTROS -->
+  <div class="project-filters">
+    <button class="filter active" data-filter="all">Todos os Projetos</button>
+    <button class="filter" data-filter="web">Web</button>
+    <button class="filter" data-filter="sistemas">Sistemas</button>
+    <button class="filter" data-filter="open">Open Source</button>
+  </div>
+
+  <!-- GRID -->
+  <div class="projects-grid">
+
+    <a href="https://aylasant.github.io" target="_blank" class="project-card" data-category="web">
+      <div class="project-image">
+        <img src="closet.png" alt="Landing Page Loja">
+      </div>
+      <div class="project-content">
+        <h3>Landing Page de loja</h3>
+        <p>Projeto de tela inicial de uma loja moda praia</p>
+        <div class="tags">
+          <span>CSS</span>
+          <span>HTML</span>
+          <span>Web</span>
+        </div>
+      </div>
+    </a>
+
+    <div class="project-card" data-category="mobile">
+          <a href="https://aylasant.github.io/ocolono" target="_blank" class="project-card" data-category="web">
+
+      <div class="project-image">
+        <img src="ocolono.jpeg" alt="App Mobile de Restaurante">
+      </div>
+      <div class="project-content">
+        <h3>Cardápio Elegante</h3>
+        <p>Um menu virtual para um restaurante colonial</p>
+        <div class="tags">
+          <span>CSS</span>
+          <span>HTML</span>
+          <span>Mobile</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-category="web">
+      <div class="project-image"></div>
+      <div class="project-content">
+        <h3>Sistema Gerador de Ficha Catalográfica</h3>
+        <p>Um sistema institucional capaz de gerar ficha catalográficas para trabalhos de conclusão de curso</p>
+        <div class="tags">
+          <span>ScriptCase</span>
+          <span>PHP</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<script src="projects.js"></script>
+</body>
+</html>

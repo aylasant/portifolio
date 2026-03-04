@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev. Fernanda Ayla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Fernanda<span>Ayla</span></div>
+  <nav>
+    <a href="portifolioux.html">Início</a>
+    <a href="sobre.html">Sobre Mim</a>
+    <a href="projeto.html">Projetos</a>
+    <a href="contato.html" class="btn-nav active">Contato</a>
+  </nav>
+</header>
+
+<section class="contact-section">
+
+  <div class="contact-container">
+
+    <!-- LADO ESQUERDO -->
+    <div class="contact-info">
+
+      <span class="section-tag">CONTATO</span>
+      <h1>Vamos construir algo incrível juntos?</h1>
+      <p>
+        Estou sempre disponível para discutir novos projetos,
+        ideias criativas ou oportunidades.
+      </p>
+
+      <div class="contact-item">
+        <strong>Email</strong>
+        <span>fernandaaylasantana@outlook.com</span>
+      </div>
+
+
+      <div class="contact-item">
+        <strong>Localização</strong>
+        <span>Brasil (Remoto)</span>
+      </div>
+
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/ayla-santana-87394b1b4/">LinkedIn</a>
+        <a href="https://github.com/aylasant">GitHub</a>
+        <a href="#">Instagram</a>
+      </div>
+
+    </div>
+
+    <!-- LADO DIREITO -->
+    <div class="contact-form">
+
+      <form action="https://formsubmit.co/fernandaaylasantana@outlook.com" method="POST">
+
+        <div class="form-row">
+    <input type="text" name="Nome" placeholder="Seu nome" required>
+    <input type="text" name="Sobrenome" placeholder="Seu sobrenome" required>
+  </div>
+
+        <input type="email" name="Email" placeholder="Seu email" required>
+
+        <select name="Tipo de Contato">
+          <option>Orçamento de Projeto</option>
+          <option>Parceria</option>
+          <option>Freelance</option>
+          <option>Outro</option>
+        </select>
+
+         <textarea name="Mensagem" placeholder="Como posso ajudar?" required></textarea>
+
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="Novo contato do portfólio!">
+  <input type="hidden" name="_template" value="table">
+
+        <button type="submit" class="btn-submit">Enviar Mensagem</button>
+
+        <small>Responderei em até 48h úteis.</small>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>
